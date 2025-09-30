@@ -6,6 +6,10 @@ Live Demo: revlinkrental.fwh.is
 
 ![Homepage](screenshots/homepage.jpg)
 
+Admin: Admin1
+Customer: Test1234
+Password (Both): Abc1234567
+
 **Demo Credit Card Numbers:**
 
 **Payment Accepted:**
@@ -115,3 +119,4 @@ The application uses a well-structured relational database with proper foreign k
 ## License
 
 MIT
+
