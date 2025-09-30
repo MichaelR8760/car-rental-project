@@ -1,0 +1,118 @@
+<!-- Booking Confirmation Page for RevLink Rentals -->
+<!-- Displays booking details and confirmation message -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Booking Confirmation - RevLink Rentals</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="card p-4">
+            <div class="text-center mb-4">
+              <div class="text-success mb-3">
+                <i class="fas fa-check-circle fa-3x"></i>
+              </div>
+              <h2>Booking Confirmed!</h2>
+              <p class="text-muted">Your reservation has been successfully created.</p>
+            </div>
+
+            <div class="card mb-4">
+              <div class="card-header bg-primary text-white">
+                <h5>Booking Details</h5>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p><strong>Confirmation Code:</strong></p>
+                    <h4 class="text-primary" id="confirmation_code">Loading...</h4>
+                  </div>
+                  <div class="col-md-6">
+                    <p><strong>Transaction ID:</strong></p>
+                    <p id="transaction_id">Loading...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-6">
+                <div class="card mb-4">
+                  <div class="card-header">
+                    <h6>Vehicle Information</h6>
+                  </div>
+                  <div class="card-body">
+                    <div id="vehicle_info">
+                      <p id="vehicle_title">Loading...</p>
+                      <p id="vehicle_features">Loading...</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="card mb-4">
+                  <div class="card-header">
+                    <h6>Rental Period</h6>
+                  </div>
+                  <div class="card-body">
+                    <p>
+                      <strong>Pick Up Date:</strong>
+                      <span id="start_date">Loading...</span>
+                    </p>
+                    <p>
+                      <strong>Drop Off Date:</strong>
+                      <span id="end_date">Loading...</span>
+                    </p>
+                    <p>
+                      <strong>Total Days:</strong>
+                      <span id="total_days">Loading...</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card mb-4">
+              <div class="card-header">
+                <h6>Cost Summary</h6>
+              </div>
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-6">
+                    <p>Daily Rate: <span id="daily_rate">Loading...</span></p>
+                    <p>Number of Days: <span id="rental_days">Loading...</span></p>
+                  </div>
+                  <div class="col-md-6">
+                    <h5>
+                      Total Cost:
+                      <span class="text-success" id="total_cost">Loading...</span>
+                    </h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="text-center">
+              <p class="text-muted mb-4">Please save your confirmation code for your records.</p>
+              <a href="homepage.php" class="btn btn-primary me-3">Return to Home</a>
+              <a href="#" class="btn btn-outline-secondary">Print Confirmation</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="booking_confirmation.js"></script>
+  </body>
+</html>
