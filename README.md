@@ -4,6 +4,12 @@ This is a full-stack car rental platform with user authentication, real-time boo
 
 Live Demo: http://revlink-car-rental-env.eba-mbg8tbdm.us-east-1.elasticbeanstalk.com
 
+You are able to create your own account, but I have some test accounts with the following information:
+
+Admin: Username: Admin2, Password: Testing123
+
+Customer: Username: UserTest1, Password: Testing123
+
 ![Homepage](screenshots/homepage.jpg)
 
 **Demo Credit Card Numbers:**
