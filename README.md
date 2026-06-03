@@ -8,7 +8,7 @@ You are able to create your own account, but I have some test accounts with the 
 
 Admin: Username: Admin2, Password: Testing123
 
-Customer: Username: UserTest1, Password: Testing123
+Customer: Username: Test1234, Password: Abc1234567
 
 ![Homepage](screenshots/homepage.jpg)
 
